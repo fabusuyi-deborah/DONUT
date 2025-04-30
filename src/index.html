@@ -8,83 +8,118 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
 
-    <nav class="flex justify-between items-center  px-10 py-5">
-      <img src="images/DONUT (1).jpg" alt="">
-      <ul class="flex gap-10 text-[#3A1B16] font-bold text-lg">
-        <li>Home</li>
-        <li>About</li>
-        <li><select name="options" id="dropdown">
-          <option value="" disabled selected>Donut</option>
-          <option value="option1">Today's menu</option>
-          <option value="option2">Best seller</option>
-        </select>
-      </li>
-        <li>Contact</li>
+   <header >
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <div class="logo text-[#3A1B16] font-bold text-2xl">
+        <img src="images/DONUT (1).jpg" alt="">
+      </div>
+      <ul class="flex space-x-6 text-[#3A1B16] font-semibold">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
-      <button class="bg-[#3A1B16]  text-white rounded-3xl border-2 px-5 py-3">Order Now</button>
+      <div class="flex items-center space-x-4">
+        <button class="bg-[#3A1B16] text-white rounded-full px-4 py-2">Order now</button>
     </nav>
+  </header>
 
-    <hero class="flex justify-between items-center px-10 py-5  ">
-      <div class=" hero-part ">
+
+<!-- Hero section -->
+    <section class="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8  py-12  md:py-20">
+      <div class=" flex flex-col md:flex-row items-center  ">
+
+        <!-- left text content -->
+        <div class="w-full md:w-1/2 mb-10 md:mb-0 md:pr-8">
 <h1 class="text-5xl  text-[#3A1B16] font-sans font-semibold">Deliciously Crafted <br /> Donuts  Just For You</h1>
 <p class="text-[#3A1B16] py-4 w-[500px]">Freshly made donuts with irresistible flavors, crafted with love. Every bite brings joy to your day!</p>
 
-<div class="Buttons">
+<div class="flex gap-5 flex-wrap">
 <button class="bg-[#3A1B16]  text-white rounded-3xl border-2 px-5 py-3 ">Order Now  </button>
 <button class="text-[#3A1B16] border-[#EFCF8F] rounded-3xl border-2 px-5 py-3">Explore Our Menu</button>
+</div>
 
 <p class="text-[#BABEC8]   pt-8">Bringing Happiness, One Donut at a Time</p>
-      </div>
 
-      <div class="socials  flex  gap-5 py-4">
+      <div class="socials  flex space-x-6 mt-6">
         <img src="images/Logo/Google.jpg" alt=""  >
         <img src="images/Logo/Facebook.jpg" alt="">
         <img src="images/Logo/Group.jpg" alt="">
         <img src="images/Logo/Webflow.jpg" alt="">
 </div>
-
+</div>
+      <div class="w-full md:w-1/2 ">
+        <img src="images/Assorted Glazed Doughnuts in a Box.jpg" alt="" />
       </div>
-      <div class=" img-part ">
-        <img src="images/Assorted Glazed Doughnuts in a Box.jpg" alt="" class="w-[450px] h-[450px] " />
       </div>
+    </section>
 
-    </hero>
-  </header>
 
-  <section class="selection  px-10 py-5">
+
+
+  <section class="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8  py-12 md:py-20">
+    ">
 <h2 class="text-4xl pt-14 text-[#3a1b16] text-center">Our Delicious Donut Selection</h2>
 <div class=" flex justify-center w-full pt-3">
-<p class="text-center text-[#3a1b16] w-1/2">Enjoy a variety of fresh, delicious donuts made with premium ingredients. Classic favorites and unique creations for every craving.</p>
+<p class="text-center text-[#3a1b16] ">Enjoy a variety of fresh, delicious donuts made with premium ingredients. Classic favorites and unique creations for every craving.</p>
 </div>
 
-<div class="donut-selection flex justify-between items-center px-10 py-5">
+<div class="donut-selection grid grid-cols-1 md:grid-cols-3 justify-between items-center px-10 py-5 ">
   <div class="donut-card flex flex-col items-center justify-center border-[#EFCF8F]  border-2 rounded-3xl p-5 m-5">
     <img src="images/Trio of Cinnamon Sugar-Dusted Donuts 1.jpg" alt=" "   class="w-[250px] "/>
     <h3 class="text-[#3a1b16] font-bold pt-2">Snowy Classic</h3>
     <p class="text-center pt-2 font-light">A fluffy donut dusted with sweet white sugar</p>
-    <button class="bg-[#3A1B16]  text-white rounded-3xl border-2 px-5 py-2 mt-2 ">Order Now</button>
+    <button class="bg-[#3A1B16]  text-white rounded  px-5 py-2 mt-3 ">Order Now</button>
   </div>
   <div class="donut-card flex flex-col items-center justify-center border-[#EFCF8F] border-2 rounded-3xl p-5 m-5">
     <img src="images/Chocolate Glazed Sprinkle Donuts on Wood 1.jpg" alt="" class="w-[250px]"   />
     <h3 class="text-[#3a1b16] font-bold pt-2 ">Choco Bliss Sprinkle</h3>
     <p class="text-center pt-2 font-light"> Donut with chocolate filling & colorful sprinkles</p>
-    <button class="bg-[#3A1B16]  text-white rounded-3xl border-2 px-5 py-2 mt-2  ">Order Now</button>
+    <button class="bg-[#3A1B16]  text-white rounded  px-5 py-2 mt-3  ">Order Now</button>
 </div>
   <div class="donut-card flex flex-col items-center justify-center border-[#EFCF8F]  border-2 rounded-3xl p-5 m-5">
     <img src="images/Trio of Decadent Glazed Doughnuts.jpg" alt="" class="w-[250px]" />
     <h3 class="text-[#3a1b16] font-bold pt-2 ">Flavor Trio Delight</h3>
     <p class="text-center pt-2 font-light">Three donuts with mixed fillings and sprinkles.</p>
-    <button class="bg-[#3A1B16]  text-white rounded-3xl border-2 px-5 py-2 mt-2 ">Order Now</button>
+    <button class="bg-[#3A1B16]  text-white rounded px-5 py-2 mt-3 ">Order Now</button>
   </div>
  <div class="donut-card flex flex-col items-center justify-center border-[#EFCF8F]  border-2 rounded-3xl p-5 m-5">
     <img src="images/Glossy Chocolate Glazed Donut with Crushed Nuts 1.jpg" alt=""  class="250px"/>
     <h3 class="text-[#3a1b16] font-bold pt-2 ">Nutty Choco Crunch</h3>
     <p class="text-center pt-2 font-light">Chocolate-filled donut topped with crunchy nuts.</p>
-    <button class="bg-[#3A1B16]  text-white rounded-3xl border-2 px-5 py-2 mt-2 ">Order Now</button>
+    <button class="bg-[#3A1B16]  text-white rounded  px-5 py-2 mt-3 ">Order Now</button>
     </div>
   </div>
+  </section>
+
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  py-12 md:py-20   flex flex-col md:flex-row items-center  text-[#3a1b16] ">
+  <div>
+  <img src="images/Image Placeholder.jpg" alt="">
+</div>
+<div class="w-full md:w-1/2 mb-10 md:mb-0 md:pl-8">
+  <h2 class="text-2xl font-bold pt-4">Crafting Happiness in Every Bite</h2>
+  <p class="pt-5">We spread joy through handcrafted donuts made with premium ingredients and creative recipes. Every bite is a sweet moment of happiness, crafted with care, love, and passion.</p>
+  <div class="flex flex-col md:flex-row gap-5 pt-8">
+    <div class="flex flex-col ">
+<h2 class="text-2xl font-bold">No. 1</h2>
+<p>Freshly baked daily for ultimate flavor</p>
+    </div>
+    <div class="flex flex-col ">
+<h2 class="font-bold text-2xl">No. 2</h2>
+<p>Unique and classic flavors for every craving</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Stats section -->
+  </section>
+
+
+  <section>
+
   </section>
 </body>
 </html>
